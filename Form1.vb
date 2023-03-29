@@ -40,7 +40,7 @@ Public Class Form1
             ' display the new time left by updating the 
             ' Time Left label.
             timeLeft -= 1
-            timeLabel.Text = timeLeft & " seconds"
+            timeLabel.Text = timeLeft & " 秒"
         Else
             ' If the user ran out of time, stop the timer, show
             ' a MessageBox, and fill in the answers.
@@ -81,7 +81,7 @@ Public Class Form1
         dividedRightLabel.Text = divisor.ToString()
         quotient.Value = 0
         timeLeft = 30
-        timeLabel.Text = "30 seconds"
+        timeLabel.Text = "30 秒"
         Timer1.Start()
     End Sub
     Private Sub startButton_Click() Handles startButton.Click
